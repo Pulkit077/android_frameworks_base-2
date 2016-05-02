@@ -11,4 +11,10 @@
     <!--The number of columns in the QSPanel -->
     <integer name="qs_panel_num_columns">4</integer>
     <integer name="qs_panel_num_columns_landscape">6</integer>
+
+    <!-- Should we listen for fingerprints when the screen is off?  Devices
+         with a rear-mounted sensor want this, but certain devices have
+         the sensor embedded in the power key and listening all the time
+         causes a poor experience. -->
+    <bool name="config_fingerprintWakeAndUnlock">true</bool>
 </resources>
